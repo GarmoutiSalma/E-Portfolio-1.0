@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Engineer", "Web Developer",  "Artificial Intelligence Enthusiast" ];
+  const toRotate = [ " a Software Engineer", "a Web Developer",  "an Artificial Intelligence Enthusiast" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Salma`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Artificial Intelligence ", "hello" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Salma`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Artificial Intelligence ", "a web developer" ]'><span className="wrap">{text}</span></span></h1>
                 <p>My fullname is Salma Garmouti. I am a software engineering student at The NATIONAL SCHOOL OF COMPUTER SCIENCE AND SYSTEMS ANALYSIS (ENSIAS IN FRENCH) .
         </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
