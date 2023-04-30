@@ -4,7 +4,7 @@ import explorer from '../assets/png/explorer.png'
 
 export const achievementData = {
     // bio : "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. - Alvin Toffler",
-    bio: " The noblest pleasure is the joy of understanding.- Leonardo da Vinci ",
+    bio: " The noblest pleasure is the joy of understanding- Leonardo da Vinci ",
     achievements : [
         {
             id : 1,
