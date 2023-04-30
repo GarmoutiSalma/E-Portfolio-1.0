@@ -1,6 +1,6 @@
 export const contactsData = {
     email: 'salma.garmouti@gmail.com',
-    phone: '+212 645682995',
+    phone: '',
     address: 'Tangier, Morocco',
 
     sheetAPI: ''
